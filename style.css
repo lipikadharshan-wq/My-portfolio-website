@@ -1,0 +1,190 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI,sans-serif;
+}
+
+body{
+background:#050505;
+color:white;
+}
+
+header{
+background:black;
+padding:15px 8%;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+color:#5bc0ff;
+font-size:30px;
+}
+
+nav ul{
+display:flex;
+gap:25px;
+list-style:none;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:600;
+}
+
+nav a:hover{
+color:#5bc0ff;
+}
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:80px 10%;
+background:linear-gradient(135deg,#0a0a0a,#5bc0ff);
+}
+
+.hero-content h1{
+font-size:55px;
+}
+
+.hero-content span{
+color:#ffffff;
+  hero-content span{
+color:#ffffff;
+}
+
+.hero-content h3{
+margin-top:10px;
+}
+
+.hero-content p{
+margin-top:15px;
+font-size:18px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 30px;
+background:#000;
+color:white;
+text-decoration:none;
+border-radius:30px;
+}
+
+.hero-image img{
+width:320px;
+height:320px;
+object-fit:cover;
+border-radius:50%;
+border:6px solid white;
+}
+
+section{
+padding:70px 10%;
+}
+
+}
+h2{
+text-align:center;
+margin-bottom:30px;
+color:#5bc0ff;
+}
+
+.card,
+.education-box,
+.project-card,
+.contact-card{
+background:#111;
+padding:25px;
+border-radius:15px;
+box-shadow:0 0 20px rgba(91,192,255,0.3);
+}
+
+.marks{
+display:flex;
+justify-content:center;
+gap:25px;
+margin-top:30px;
+flex-wrap:wrap;
+}
+
+.mark-card{
+background:#5bc0ff;
+color:black;
+  padding:25px;
+border-radius:15px;
+width:180px;
+text-align:center;
+font-weight:bold;
+}
+
+.skills-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+}
+
+.skill{
+background:#5bc0ff;
+color:black;
+padding:15px 25px;
+border-radius:30px;
+font-weight:bold;
+}
+
+.project-btn{
+display:inline-block;
+margin-top:15px;
+background:#5bc0ff;
+color:black;
+padding:10px 20px;
+border-radius:20px;
+text-decoration:none;
+font-weight:bold;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:black;
+}
+
+@media(max-width:768px){
+
+.hero{
+  flex-direction:column;
+text-align:center;
+gap:30px;
+}
+
+.hero-image img{
+width:250px;
+height:250px;
+}
+
+.hero-content h1{
+font-size:40px;
+}
+
+nav{
+flex-direction:column;
+gap:15px;
+}
+
+nav ul{
+flex-wrap:wrap;
+justify-content:center;
+}
+}
